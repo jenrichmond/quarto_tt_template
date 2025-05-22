@@ -1,0 +1,79 @@
+---
+title: "tidytemplateR"
+date: today
+output: html_document
+author: You
+---
+
+# load packages
+
+```{r libraries, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(tidytuesdayR)
+library(janitor)
+library(ggeasy)
+```
+
+# get the data
+
+Download the weekly data and make available in the `tt` object.
+
+```{r get}
+
+# Using R
+# Option 1: tidytuesdayR R package 
+## install.packages("tidytuesdayR")
+
+tt <- tt_load('insertdate')
+## OR
+tt <- tt_load(2025, week = weeknumber)
+
+df <- tt[[1]]
+
+# Option 2: Read directly from GitHub
+
+df <- read_csv('GITHUB_URL')
+
+
+```
+
+
+# sense check it
+
+```{r}
+
+df %>%
+  glimpse()
+
+```
+
+
+
+# clean it up
+
+
+```{r clean}
+
+
+
+```
+
+
+# plot
+
+
+```{r plot}
+
+
+  
+```
+
+# save
+
+```{r}
+#| include: false
+
+# ggsave("plot.png"), width = 6, height = 4,  bg = "white")
+
+
+```
