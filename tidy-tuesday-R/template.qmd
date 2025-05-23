@@ -1,8 +1,8 @@
 ---
-title: "tidytemplateR"
+title: "Tidy Tuesday Week X"
 date: today
 output: html_document
-author: You
+author: Jen Richmond
 ---
 
 # load packages
@@ -12,41 +12,23 @@ library(tidyverse)
 library(tidytuesdayR)
 library(janitor)
 library(ggeasy)
+
+# adjust year/week values here
+year = 2025
+week = 20
 ```
 
 # get the data
 
-Download the weekly data and make available in the `tt` object.
-
 ```{r get}
 
-# Using R
-# Option 1: tidytuesdayR R package 
-## install.packages("tidytuesdayR")
-
-tt <- tt_load('insertdate')
-## OR
-tt <- tt_load(2025, week = weeknumber)
+tt <- tt_load(year, week)
 
 df <- tt[[1]]
 
-# Option 2: Read directly from GitHub
-
-df <- read_csv('GITHUB_URL')
-
+glimpse(df)
 
 ```
-
-
-# sense check it
-
-```{r}
-
-df %>%
-  glimpse()
-
-```
-
 
 
 # clean it up
