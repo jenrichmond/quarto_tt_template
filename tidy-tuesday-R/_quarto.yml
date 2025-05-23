@@ -8,7 +8,7 @@ format:
     toc-location: right
     toc-depth: 3
     code-fold: show
-    code-summary: "Show/Hide R Code"
+    code-summary: "Code"
     code-tools: 
       source: true
       toggle: true
