@@ -1,8 +1,10 @@
 ---
-title: "Pydy Tuesday Week X"
-format: html
+title: "post title"
+subtitle: "tidy tuesday week X"
 date: today
+format: html
 author: Jen Richmond
+image: featured.png
 ---
 
 

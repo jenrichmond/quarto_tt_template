@@ -1,8 +1,11 @@
 ---
-title: "Tidy Tuesday Week X"
+title: "post title"
+subtitle: "tidy tuesday week X"
 date: today
-output: html_document
+format: html
 author: Jen Richmond
+image: featured.png
+
 ---
 
 # load packages
