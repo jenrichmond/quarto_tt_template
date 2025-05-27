@@ -34,7 +34,7 @@ glimpse(df)
 ```
 
 
-# clean it up
+# wrangling
 
 
 ```{r clean}

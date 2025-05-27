@@ -9,6 +9,7 @@ image: featured.png
 
 
 # load packages
+
 ```{python}
 import pydytuesday
 import pandas as pd
@@ -37,7 +38,7 @@ water = pd.read_csv('GITHUB_URL')
 ```
 
 
-# clean it up
+# wrangling
 
 ```{python}
 
